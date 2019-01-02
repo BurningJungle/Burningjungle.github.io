@@ -7,17 +7,17 @@
   
   <title>Java虚拟机学习笔记#Day1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：">
+  <meta name="description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：  内存问题：由于指针膨胀和各种数据类型对齐补白的原因，运行再64位系统上的虚拟机通常要比普通32位机多消耗10%-30%的内">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java虚拟机学习笔记#Day1">
 <meta property="og:url" content="http://yoursite.com/2019/01/02/Java虚拟机学习笔记-Day1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：">
+<meta property="og:description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：  内存问题：由于指针膨胀和各种数据类型对齐补白的原因，运行再64位系统上的虚拟机通常要比普通32位机多消耗10%-30%的内">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-02T03:41:10.000Z">
+<meta property="og:updated_time" content="2019-01-02T11:31:22.049Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java虚拟机学习笔记#Day1">
-<meta name="twitter:description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：">
+<meta name="twitter:description" content="#走进Java1.JDK：用于支持java程序开发的最小环境。2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。3.JRE：支持java程序运行的标准环境。4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机64位虚拟机：缺点：  内存问题：由于指针膨胀和各种数据类型对齐补白的原因，运行再64位系统上的虚拟机通常要比普通32位机多消耗10%-30%的内">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -86,7 +86,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#走进Java<br>1.JDK：用于支持java程序开发的最小环境。<br>2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。<br>3.JRE：支持java程序运行的标准环境。<br>4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机<br><strong>64位虚拟机：</strong><br><strong>缺点：</strong></p>
+        <p>#走进Java<br>1.JDK：用于支持java程序开发的最小环境。<br>2.JDK包括：java程序设计语言、java虚拟机、javaAPI库。<br>3.JRE：支持java程序运行的标准环境。<br>4.JRE包括：javaAPI类库中javaSE API子集和java虚拟机<br><strong>64位虚拟机：</strong><br><strong>缺点：</strong><br>  内存问题：由于指针膨胀和各种数据类型对齐补白的原因，运行再64位系统上的虚拟机通常要比普通32位机多消耗10%-30%<br>的内存。<br>  据多个机构测试表明，64位的运行速度再各项测试中都低于32位机，两者大约有15%的差距。</p>
+<p>##java虚拟机发展历程##<br>  1991年4月在<strong>绿色计划</strong>中启动，目的在于消费性电子产品上运行的程序架构，计划产品名：<strong>Oak</strong>。<br>这是java的前身。<del>但由于市场原因并不成功</del><br>  1995年随着互联网潮流的兴起，<strong>Oak</strong>迅速找到适合自己的发展市场定位并开始蜕变为<strong>java</strong>。<br>  1995年5月23日，<strong>Oak</strong>正式更名为<strong>java</strong>，SunWorld大会上正式发布java1.0</p>
 
       
     </div>
