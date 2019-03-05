@@ -5,19 +5,19 @@
   
 
   
-  <title>post第三次测试 | Hexo</title>
+  <title>get请求和post请求的区别 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#很难受 ##很难受x2 ###很难受x3">
+  <meta name="description" content="定义：Get和Post是Http协议中的两种发送请求的方法。Http：HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的Get请求是通过url带参数Post请求是通过request body带参数但是给Get请求加上request b">
 <meta property="og:type" content="article">
-<meta property="og:title" content="post第三次测试">
-<meta property="og:url" content="http://yoursite.com/2018/12/29/post第三次测试/index.html">
+<meta property="og:title" content="get请求和post请求的区别">
+<meta property="og:url" content="http://yoursite.com/2019/03/05/get请求和post请求的区别/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#很难受 ##很难受x2 ###很难受x3">
+<meta property="og:description" content="定义：Get和Post是Http协议中的两种发送请求的方法。Http：HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的Get请求是通过url带参数Post请求是通过request body带参数但是给Get请求加上request b">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-29T03:04:08.670Z">
+<meta property="og:updated_time" content="2019-03-05T07:54:04.323Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="post第三次测试">
-<meta name="twitter:description" content="#很难受 ##很难受x2 ###很难受x3">
+<meta name="twitter:title" content="get请求和post请求的区别">
+<meta name="twitter:description" content="定义：Get和Post是Http协议中的两种发送请求的方法。Http：HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的Get请求是通过url带参数Post请求是通过request body带参数但是给Get请求加上request b">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -64,10 +64,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-post第三次测试" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-get请求和post请求的区别" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/12/29/post第三次测试/" class="article-date">
-  <time datetime="2018-12-29T03:03:34.000Z" itemprop="datePublished">2018-12-29</time>
+    <a href="/2019/03/05/get请求和post请求的区别/" class="article-date">
+  <time datetime="2019-03-05T06:00:49.000Z" itemprop="datePublished">2019-03-05</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      post第三次测试
+      get请求和post请求的区别
     </h1>
   
 
@@ -86,14 +86,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#很难受</p>
-<p>##很难受x2</p>
-<p>###很难受x3</p>
+        <p><em>定义：</em><br>Get和Post是Http协议中的两种发送请求的方法。<br><em>Http：</em><br>HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。<br>所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的<br>Get请求<em>是通过url带参数</em><br>Post请求<em>是通过request body带参数</em><br>但是给Get请求加上request body，给Post请求带上url参数在技术上是可以行得通的。<br><em>在不同的服务器和不同的浏览器上对上述技术处理之后的请求有着不同的处理方法：<br>1.有些浏览器会对Get请求所带的request body进行处理。<br>浏览器限制url长度在2k字节。<br>服务器限制url长度在64k字节以下。
+</em>超出部分概不处理*</p>
+<p>##重大区别##<br>Get请求产生一个数据包，Post请求产生<em>两个</em>数据包。<br>对于Get方式的请求，浏览器会把header和data一并发送过去，服务器响应200.<br>对于Post请求，浏览器先发送header，服务器响应100 continue，浏览器再发送data，<br>服务器再响应200。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/29/post第三次测试/" data-id="cjsvh964l000804vdai5o8l45" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/05/get请求和post请求的区别/" data-id="cjsvh963s000204vd1ddlfiuf" class="article-share-link">Share</a>
       
       
     </footer>
@@ -102,19 +102,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/01/02/123/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          123
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/12/29/postHexo-第二个文件/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/01/17/面试题Day1/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">postHexo 第二个文件</div>
+      <div class="article-nav-title">面试题Day1</div>
     </a>
   
 </nav>
