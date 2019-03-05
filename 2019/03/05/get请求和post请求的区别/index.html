@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="定义：Get和Post是Http协议中的两种发送请求的方法。Http：HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的Get请求是通过url带参数Post请求是通过request body带参数但是给Get请求加上request b">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-05T07:54:04.323Z">
+<meta property="og:updated_time" content="2019-03-05T07:56:21.318Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="get请求和post请求的区别">
 <meta name="twitter:description" content="定义：Get和Post是Http协议中的两种发送请求的方法。Http：HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的Get请求是通过url带参数Post请求是通过request body带参数但是给Get请求加上request b">
@@ -86,9 +86,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><em>定义：</em><br>Get和Post是Http协议中的两种发送请求的方法。<br><em>Http：</em><br>HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。<br>所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的<br>Get请求<em>是通过url带参数</em><br>Post请求<em>是通过request body带参数</em><br>但是给Get请求加上request body，给Post请求带上url参数在技术上是可以行得通的。<br><em>在不同的服务器和不同的浏览器上对上述技术处理之后的请求有着不同的处理方法：<br>1.有些浏览器会对Get请求所带的request body进行处理。<br>浏览器限制url长度在2k字节。<br>服务器限制url长度在64k字节以下。
-</em>超出部分概不处理*</p>
-<p>##重大区别##<br>Get请求产生一个数据包，Post请求产生<em>两个</em>数据包。<br>对于Get方式的请求，浏览器会把header和data一并发送过去，服务器响应200.<br>对于Post请求，浏览器先发送header，服务器响应100 continue，浏览器再发送data，<br>服务器再响应200。</p>
+        <p><strong>定义：</strong><br>Get和Post是Http协议中的两种发送请求的方法。<br><strong>Http：</strong><br>HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议，HTTP的底层是TCP/IP。<br>所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样的<br>Get请求<strong>是通过url带参数</strong><br>Post请求<strong>是通过request body带参数</strong><br>但是给Get请求加上request body，给Post请求带上url参数在技术上是可以行得通的。<br>*在不同的服务器和不同的浏览器上对上述技术处理之后的请求有着不同的处理方法：<br>1.有些浏览器会对Get请求所带的request body进行处理。<br>浏览器限制url长度在2k字节。<br>服务器限制url长度在64k字节以下。<br><strong>超出部分概不处理</strong></p>
+<p>##重大区别<br>Get请求产生一个数据包，Post请求产生<em>两个</em>数据包。<br>对于Get方式的请求，浏览器会把header和data一并发送过去，服务器响应200.<br>对于Post请求，浏览器先发送header，服务器响应100 continue，浏览器再发送data，<br>服务器再响应200。</p>
 
       
     </div>
